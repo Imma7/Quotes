@@ -6,7 +6,7 @@
   <!-- <app-details [quote]="quote"></app-details> -->
   <div class="container-fluid" >
     <h1>QUOTES</h1>
-    <img src="assets/images/like-dislike.png">
+    <!-- <img src="assets/images/like-dislike.png"> -->
   </div>
 
   <app-form (emitQuote)="addQuote($event)"></app-form>
@@ -23,13 +23,9 @@
           <!-- <hr size="50"> -->
 
 
-          <button class="btn" (click)="upvote(i)">Upvote</button>
+          <button class="btn btn-primary" (click)="upvote(i)">Upvote</button>
           <button class="btn" (click)="downvote(i)">Downvote</button>
-          <button class="btn" (click)="delQuote(i)">Delete</button>
-
-          <!-- <button class="btn btn-primary" (click)="upvote(i)">Upvote</button>
-          <button class="btn" (click)="downvote(i)">Downvote</button>
-          <button class="btn btn-danger" (click)="delQuote(i)">Delete</button> -->
+          <button class="btn btn-danger" (click)="delQuote(i)">Delete</button>
 
           <hr>
 
