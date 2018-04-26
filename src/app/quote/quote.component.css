@@ -4,8 +4,8 @@
 
 .container-fluid{
   text-align: center;
-  /* background-color: blue; */
-  font-family: 'Times New Roman', Times, serif;
+  background-color: blue;
+  /* font-family: 'Times New Roman', Times, serif; */
   font-size: 70px;
 }
 
